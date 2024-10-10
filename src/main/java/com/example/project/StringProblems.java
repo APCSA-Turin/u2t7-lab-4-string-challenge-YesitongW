@@ -9,6 +9,7 @@ public class StringProblems{
     // endsLy("oddy") → false
     public boolean endsLy(String x){
             //implement code here
+        String ending = substring()
         return false;
     }
 
