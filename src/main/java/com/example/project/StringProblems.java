@@ -9,10 +9,14 @@ public class StringProblems{
     // endsLy("oddy") → false
     public boolean endsLy(String x){
             //implement code here
-        String ending = substring()
-        return false;
+        String ending = substring(x.length()-1, x.length()+1);
+        if(ending = ly){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
-
 
     // Given two strings, append them together (known as "concatenation") 
     // and return the result. However, if the concatenation creates a double-char, 
