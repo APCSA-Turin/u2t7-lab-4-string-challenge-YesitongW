@@ -33,7 +33,6 @@ public class StringProblems{
         //implement code here
         if (s1.isEmpty()) return s2;
         if (s2.isEmpty()) return s1;
-        // Check for double-char at the junction
         if (s1.substring(s1.length() - 1).equals(s2.substring(0, 1))) {
             return s1 + s2.substring(1);
         }
